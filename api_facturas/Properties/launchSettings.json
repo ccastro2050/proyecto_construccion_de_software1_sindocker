@@ -1,0 +1,12 @@
+{
+  "_comentario": "Fija el puerto de la API al arrancar con dotnet run/watch (SIN Docker). En el gemelo con Docker este papel lo hacía ASPNETCORE_URLS del Dockerfile.",
+  "profiles": {
+    "api_facturas": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:8042",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
